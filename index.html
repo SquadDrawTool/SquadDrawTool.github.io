@@ -56,13 +56,13 @@
     --ink: #1c2b22;
     --ink-soft: #5b6b62;
     --ink-mute: #8a978d;
-    --paper: #faf8f4;
+    --paper: #ffffff;
     --card: #eef4fb;
     --card-border: #d7e6f5;
-    --accent: #2f6e52;
-    --accent-dark: #255a42;
+    --accent: #c2660c;
+    --accent-dark: #9c5209;
     --accent-soft: rgba(47, 110, 82, 0.10);
-    --line: #e5e0d5;
+    --line: #e2e5e9;
   }
   body {
     font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
@@ -91,7 +91,7 @@
   .lang-switch button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 
   .ad-slot {
-    background: #f1ede4; border: 1px dashed #d8d2c4; border-radius: 10px;
+    background: #f3f4f6; border: 1px dashed #d1d5db; border-radius: 10px;
     text-align: center; padding: 14px; font-size: 0.7rem; color: var(--ink-mute);
     letter-spacing: 0.05em; text-transform: uppercase; margin: 24px 0;
   }
@@ -181,7 +181,8 @@
 
 <header>
   <div class="wrap header-row">
-    <div class="logo"><span class="logo-icon">👥</span> TeamShuffle<span style="color:var(--accent)">.</span></div>
+    <div class="logo"><span class="logo-icon">T</span> TeamShuffle<span style="color:var(--accent)">.</span></div>
+    <nav class="main-nav" style="display:flex;gap:16px;"><a href="/" style="color:var(--accent);text-decoration:none;font-size:0.85rem;font-weight:600;">Home</a><a href="/tools.html" style="color:var(--ink-soft);text-decoration:none;font-size:0.85rem;font-weight:600;">Free Tools</a><a href="/guides.html" style="color:var(--ink-soft);text-decoration:none;font-size:0.85rem;font-weight:600;">Guides</a><a href="/blog.html" style="color:var(--ink-soft);text-decoration:none;font-size:0.85rem;font-weight:600;">Blog</a><a href="/about.html" style="color:var(--ink-soft);text-decoration:none;font-size:0.85rem;font-weight:600;">About</a></nav>
     <div class="lang-switch">
       <button id="btn-fr" class="active" onclick="setLang('fr')">FR</button>
       <button id="btn-en" onclick="setLang('en')">EN</button>
