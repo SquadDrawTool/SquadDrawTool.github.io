@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comment Bien Répartir un Groupe en Équipes | Guide</title>
+<meta name="description" content="Les bonnes pratiques pour organiser une répartition d'équipes juste et efficace, à la main ou avec un outil aléatoire.">
+<link rel="canonical" href="https://bussacmaelys-stack.github.io/guides.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink: #1c2b22; --ink-soft: #5b6b62; --ink-mute: #8a978d;
+  --paper: #ffffff; --card: #fdf2e7; --card-border: #f0dcc4;
+  --accent: #c2660c; --accent-dark: #9c5209;
+  --line: #e2e5e9;
+}
+body { font-family: 'Space Grotesk', system-ui, sans-serif; background: var(--paper); color: var(--ink); line-height: 1.65; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+header { background: #fff; border-bottom: 1px solid var(--line); padding: 16px 0; }
+.header-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.05rem; text-decoration: none; color: var(--ink); }
+.logo-icon { width: 36px; height: 36px; border-radius: 10px; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; }
+nav.main-nav { display: flex; gap: 16px; flex-wrap: wrap; }
+nav.main-nav a { color: var(--ink-soft); text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+nav.main-nav a:hover, nav.main-nav a.active { color: var(--accent); }
+main { padding: 40px 0 60px; }
+.eyebrow { color: var(--accent); font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px; display: block; }
+h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 16px; }
+h2 { font-size: 1.08rem; font-weight: 700; margin: 26px 0 8px; }
+p { color: var(--ink-soft); font-size: 0.96rem; margin-bottom: 12px; }
+.lede { max-width: 540px; }
+.tool-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-top: 10px; }
+.tool-card { background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 20px; text-decoration: none; color: var(--ink); display: block; }
+.tool-card h2 { margin: 0 0 6px; font-size: 1.05rem; }
+.tool-card p { font-size: 0.85rem; margin: 0; }
+.soon { opacity: 0.5; }
+.ad-slot { background: #f3f4f6; border: 1px dashed #d1d5db; border-radius: 10px; text-align: center; padding: 14px; font-size: 0.7rem; color: var(--ink-mute); letter-spacing: 0.05em; text-transform: uppercase; margin: 26px 0; }
+.card { background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 18px 20px; margin: 20px 0; }
+.card p { color: var(--ink); font-size: 0.92rem; margin-bottom: 0; }
+a.cta { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; border-radius: 10px; padding: 12px 24px; font-weight: 700; font-size: 0.95rem; margin-top: 10px; }
+footer { background: #fff; border-top: 1px solid var(--line); padding: 28px 0; margin-top: 40px; font-size: 0.82rem; color: var(--ink-mute); text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap header-row">
+    <a class="logo" href="/"><span class="logo-icon">T</span> TeamShuffle</a>
+    <nav class="main-nav"><a href="/">Home</a><a href="/tools.html">Free Tools</a><a href="/guides.html" class="active">Guides</a><a href="/blog.html">Blog</a><a href="/about.html">About</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <h1>Comment bien répartir un groupe en équipes</h1>
+  <p>Répartir un groupe n'est pas toujours simple&nbsp;: trop de méthode tue la spontanéité, pas assez crée des déséquilibres. Voici ce qui fonctionne réellement.</p>
+
+  <h2>Aléatoire pur ou équilibré ?</h2>
+  <p>Pour un contexte informel (jeu, activité entre amis), un tirage purement aléatoire est le plus simple et le plus perçu comme juste. Pour un contexte compétitif où le niveau compte (sport, tournoi), il vaut mieux répartir d'abord par niveau puis tirer au sort au sein de chaque groupe de niveau.</p>
+
+  <h2>Combien de personnes par équipe ?</h2>
+  <p>Une règle simple&nbsp;: diviser l'effectif total par le nombre d'équipes souhaité, et accepter qu'une ou deux équipes aient un membre de plus si le compte ne tombe pas rond — mieux vaut ça qu'une équipe visiblement désavantagée.</p>
+
+  <div class="ad-slot">Publicité / Advertisement — AdSense</div>
+
+  <h2>Pourquoi passer par un outil plutôt qu'à la main</h2>
+  <p>Choisir soi-même qui va où, même avec les meilleures intentions, laisse toujours planer un doute de favoritisme. Un tirage automatique enlève cette question du groupe.</p>
+
+  <p><a class="cta" href="/">Générer des équipes</a></p>
+</main>
+<footer>
+  <div class="wrap">© TeamShuffle</div>
+</footer>
+</body>
+</html>
