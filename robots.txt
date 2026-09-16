@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bussacmaelys-stack.github.io/sitemap.xml
